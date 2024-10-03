@@ -8,7 +8,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "OCUB",
+  title: "OCUB | Dashboard",
   description: "OCUB (Ocean Capp Unviversity of Bangladesh)",
 };
 
