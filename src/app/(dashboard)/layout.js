@@ -2,7 +2,7 @@ import Navbar from "@/components/Dashboard/DashboardNavbar/MainNavbar/Navbar";
 import SideNavbarLogo from "@/components/Dashboard/DashboardNavbar/SideNavbar/SideNavbarLogo/SideNavbarLogo";
 import SideNavbarMenu from "@/components/Dashboard/DashboardNavbar/SideNavbar/SideNavbarMenu/SideNavbarMenu";
 
-const layout = ({ children }) => {
+const layout = ({children}) => {
   return (
     <>
       <div className="flex h-screen">

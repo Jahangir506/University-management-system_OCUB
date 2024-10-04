@@ -1,4 +1,4 @@
-import FacultyManagement from "@/pages/Dashboard/FacultyManagement/FacultyManagement";
+import FacultyManagement from "../../../components/Dashboard/FacultyOverview/FacultyOverview";
 
 const facultyPage = () => {
     return(

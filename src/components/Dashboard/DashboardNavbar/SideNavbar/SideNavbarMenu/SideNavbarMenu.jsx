@@ -41,7 +41,7 @@ const SideNavbarMenu = () => {
       <div className="mt-[350px]">
         <ul className="mt-4 space-y-4">
           <li className="flex gap-2 justify-center lg:justify-start items-center">
-            <Link className="flex items-center gap-2" href="/student">
+            <Link className="flex items-center gap-2" href="/login">
               <IoMdLogOut size={21} />
               <span className="hidden lg:block">Logout</span>
             </Link>
