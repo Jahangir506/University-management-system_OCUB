@@ -7,25 +7,27 @@ import InputField from "./InputField";
 const Navbar = () => {
   return (
     <>
-      <div className="flex items-center justify-between">
-        <div className="w-4/6 ml-0 lg:-ml-40">
+      <div className="navbar gap-3">
+        <div className="flex-1">
           <InputField />
         </div>
-        <div className="flex items-center space-x-4 max-w-max w-1/6 px-4">
+        <div className="flex-start space-x-4">
           <div>
-            <IoMdNotificationsOutline size={25} />
+            <div className="indicator">
+              <span className="indicator-item badge h-[0.5em] pl-[0.2em] pr-[0.2em] bg-red-600 mr-[0.365em] mt-[0.1em]"></span>
+              <IoMdNotificationsOutline size={24} />
+            </div>
           </div>
-          <div className="flex flex-col">
-            <h5>John Doe</h5>
-            <span className="text-[10px] text-right">Admin</span>
+          <div className="avatar">
+            <div className="rounded-full">
+              <Image
+                src="https://i.ibb.co.com/4NK7Jzf/Md-Jahangir-Alam.jpg"
+                alt="avatar"
+                width={33}
+                height={33}
+              />
+            </div>
           </div>
-          <Image
-            className="rounded-full w-11"
-            src="https://i.ibb.co.com/xqk4px3/logo.png"
-            alt="profile"
-            width={100}
-            height={100}
-          />
         </div>
       </div>
     </>

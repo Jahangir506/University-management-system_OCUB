@@ -7,7 +7,7 @@ const SideNavbarLogo = () => {
   return (
     <>
       <Link href="/dashboard">
-        <div className="flex justify-center items-center lg:justify-start gap-1">
+        <button className="flex justify-center items-center lg:justify-start gap-1">
           <Image
             src="https://i.ibb.co.com/HDnfLh7/logo.png"
             alt="Logo"
@@ -15,7 +15,7 @@ const SideNavbarLogo = () => {
             height={50}
           />
           <span className="hidden lg:block">OCUB</span>
-        </div>
+        </button>
       </Link>
     </>
   );

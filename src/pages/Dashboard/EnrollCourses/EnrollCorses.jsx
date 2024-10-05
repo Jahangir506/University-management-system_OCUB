@@ -1,7 +1,7 @@
 const EnrollCorses = () => {
     return(
         <>
-             <h1> Hello, I Am EnrollCorses Components </h1>
+             Enroll Courses
         </>
     )}
 export default EnrollCorses;
