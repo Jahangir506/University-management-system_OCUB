@@ -14,7 +14,7 @@ const layout = ({children}) => {
           <div className="p-2 shadow-sm">
             <Navbar />
           </div>
-          <div className="mt-6 p-1 lg:p-4">{children}</div>
+          <div className="mt-6 p-5 lg:p-7">{children}</div>
         </div>
       </div>
     </>
