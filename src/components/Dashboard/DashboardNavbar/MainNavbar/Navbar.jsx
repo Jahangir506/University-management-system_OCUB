@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="flex-1">
           <InputField />
         </div>
-        <div className="flex-start space-x-4">
+        <div className="flex-none space-x-4">
           <div>
             <div className="indicator">
               <span className="indicator-item badge h-[0.5em] pl-[0.2em] pr-[0.2em] bg-red-600 mr-[0.365em] mt-[0.1em]"></span>
@@ -23,6 +23,7 @@ const Navbar = () => {
               <Image
                 src="https://i.ibb.co.com/4NK7Jzf/Md-Jahangir-Alam.jpg"
                 alt="avatar"
+                className="w-full"
                 width={33}
                 height={33}
               />
