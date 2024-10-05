@@ -7,7 +7,7 @@ import InputField from "./InputField";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar gap-3">
+      <div className="navbar px-12 gap-3">
         <div className="flex-1">
           <InputField />
         </div>
@@ -15,15 +15,14 @@ const Navbar = () => {
           <div>
             <div className="indicator">
               <span className="indicator-item badge h-[0.5em] pl-[0.2em] pr-[0.2em] bg-red-600 mr-[0.365em] mt-[0.1em]"></span>
-              <IoMdNotificationsOutline size={24} />
+              <IoMdNotificationsOutline size={23} />
             </div>
           </div>
-          <div className="avatar">
-            <div className="rounded-full">
+          <div className="avatar w-full">
+            <div className="rounded-full max-w-10 w-full">
               <Image
                 src="https://i.ibb.co.com/4NK7Jzf/Md-Jahangir-Alam.jpg"
                 alt="avatar"
-                className="w-full"
                 width={33}
                 height={33}
               />
