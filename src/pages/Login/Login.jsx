@@ -3,8 +3,8 @@ const Login = () => {
     <>
       <div className="hero bg-[#009688] min-h-screen">
         <div className="hero-content p-0 flex-col lg:flex-row-reverse">
-          <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-            <form className="card-body">
+          <div className="card rounded-md bg-base-100 w-full shrink-0 shadow-2xl">
+            <form className="card-body px-4 pt-5">
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Email</span>
