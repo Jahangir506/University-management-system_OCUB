@@ -7,7 +7,7 @@ import InputField from "./InputField";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar px-12 gap-3">
+      <div className="navbar lg:px-4 gap-3">
         <div className="flex-1">
           <InputField />
         </div>
