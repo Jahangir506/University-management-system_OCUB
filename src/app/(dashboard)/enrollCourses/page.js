@@ -1,9 +1,12 @@
 import EnrollCorses from "@/pages/Dashboard/EnrollCourses/EnrollCorses";
 
 const enrollCourses = () => {
-    return(
-        <>
-             <EnrollCorses/>
-        </>
-    )}
+  return (
+    <>
+      <div>
+        <EnrollCorses />
+      </div>
+    </>
+  );
+};
 export default enrollCourses;

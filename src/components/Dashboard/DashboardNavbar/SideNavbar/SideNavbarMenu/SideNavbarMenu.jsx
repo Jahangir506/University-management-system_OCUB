@@ -13,16 +13,16 @@ const SideNavbarMenu = () => {
         </h4>
         <ul className="mt-5 space-y-5 menu p-0 text-start">
           <li>
-            <Link className="flex p-0 items-center gap-3" href="/studentPortal">
+            <Link className="flex p-0 items-center gap-3" href="/studentDashboard">
               <PiStudent size={20} />
-              <span className="hidden lg:block">Student Portal</span>
+              <span className="hidden lg:block">Student Dashboard</span>
             </Link>
           </li>
 
           <li>
-            <Link className="flex p-0 items-center gap-3" href="/facultyOverview">
+            <Link className="flex p-0 items-center gap-3" href="/facultyManagement">
               <HiUserGroup size={20} />
-              <span className="hidden lg:block">Faculty Overview</span>
+              <span className="hidden lg:block">Faculty Management</span>
             </Link>
           </li>
 

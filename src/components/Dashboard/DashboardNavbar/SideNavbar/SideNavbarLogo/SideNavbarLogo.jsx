@@ -6,7 +6,7 @@ import Link from "next/link";
 const SideNavbarLogo = () => {
   return (
     <>
-      <Link href="/studentPortal">
+      <Link href="/studentDashboard">
         <button className="hover:bg-white/5 hover:skew-x-2 rounded-lg px-5 flex justify-center items-center lg:justify-start gap-1">
           <Image
             src="https://i.ibb.co.com/HDnfLh7/logo.png"

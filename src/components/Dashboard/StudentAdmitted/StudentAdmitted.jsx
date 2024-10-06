@@ -1,5 +1,4 @@
-
-const StudentPortal = () => {
+const StudentAdmitted = () => {
   return (
     <>
       <div>
@@ -33,4 +32,4 @@ const StudentPortal = () => {
     </>
   );
 };
-export default StudentPortal;
+export default StudentAdmitted;
