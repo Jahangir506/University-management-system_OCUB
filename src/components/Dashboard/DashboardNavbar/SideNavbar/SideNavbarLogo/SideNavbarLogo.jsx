@@ -11,8 +11,9 @@ const SideNavbarLogo = () => {
           <Image
             src="https://i.ibb.co.com/HDnfLh7/logo.png"
             alt="Logo"
-            width={50}
-            height={50}
+            width={500}
+            height={500}
+            className="lg:w-16"
           />
           <span className="hidden lg:block">OCUB</span>
         </button>

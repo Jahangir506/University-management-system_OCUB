@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { HiUserGroup } from "react-icons/hi2";
-import { IoMdLogOut } from "react-icons/io";
 import { PiStudent } from "react-icons/pi";
 import { RiRegisteredFill } from "react-icons/ri";
 
@@ -11,7 +10,7 @@ const SideNavbarMenu = () => {
         <h4 className="text-bold text-sm lg:text-base min-w-max max-w-full mt-8 text-center lg:text-start opacity-75">
           Menu
         </h4>
-        <ul className="mt-5 space-y-5 menu p-0 text-start">
+        <ul className="mt-5 items-center lg:items-start space-y-5 menu p-0 text-start">
           <li>
             <Link className="flex p-0 items-center gap-3" href="/studentDashboard">
               <PiStudent size={20} />
@@ -34,7 +33,7 @@ const SideNavbarMenu = () => {
           </li>
         </ul>
       </div>
-
+{/* 
       <div className="mt-[350px]">
         <ul className="mt-4 space-y-4">
           <li className="flex gap-2 justify-center lg:justify-start items-center">
@@ -44,7 +43,7 @@ const SideNavbarMenu = () => {
             </Link>
           </li>
         </ul>
-      </div>
+      </div> */}
     </>
   );
 };

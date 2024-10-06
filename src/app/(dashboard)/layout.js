@@ -5,7 +5,7 @@ import SideNavbarMenu from "@/components/Dashboard/DashboardNavbar/SideNavbar/Si
 const layout = ({ children }) => {
   return (
     <>
-      <div className="flex">
+      <div className="flex h-screen">
         <div className="w-[14%] text-white text-opacity-90 md:w-[8%] lg:w-[16%] xl:w-[16%] bg-[#009688] min-w-min p-4 shadow-lg">
           <SideNavbarLogo />
           <SideNavbarMenu />
@@ -14,7 +14,7 @@ const layout = ({ children }) => {
           <div className="p-0.5 shadow-sm">
             <Navbar />
           </div>
-          <div className="w-full  h-screen rounded">{children}</div>
+          <div className="w-full rounded">{children}</div>
         </div>
       </div>
     </>
