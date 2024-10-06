@@ -5,7 +5,7 @@ const StudentDashboard = () => {
     <>
       <div>
         <div>
-          <h4>Student Details</h4>
+          <h4 className="text-xl font-bold">Student Portal</h4>
           <StudentAdmitted />
         </div>
       </div>

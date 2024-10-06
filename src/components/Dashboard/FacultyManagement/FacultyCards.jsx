@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 
@@ -27,11 +27,8 @@ const FacultyCards = ({ faculty }) => {
             <span className="text-sm">{subject}</span>
           </span>
           <div className="card-actions justify-start">
-            {/* <button className="btn bg-[#026f64] text-white  hover:bg-[#038f81] rounded-sm btn-xs btn-primary">
-              More Details
-            </button> */}
             <button
-              className="btn bg-[#026f64] text-white  hover:bg-[#038f81] rounded-sm btn-xs btn-primary"
+              className="btn btn-xs bg-[#009688] text-white  hover:bg-[#03524a]"
               onClick={() => document.getElementById("my_modal_5").showModal()}
             >
               More Details
@@ -48,7 +45,9 @@ const FacultyCards = ({ faculty }) => {
                 <div className="modal-action">
                   <form method="dialog">
                     {/* if there is a button in form, it will close the modal */}
-                    <button className="btn">Close</button>
+                    <button className="btn btn-xs bg-[#009688] text-white  hover:bg-[#03524a]">
+                      Close
+                    </button>
                   </form>
                 </div>
               </div>
