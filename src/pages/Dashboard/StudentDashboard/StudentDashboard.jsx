@@ -1,4 +1,4 @@
-import StudentAdmitted from "@/components/Dashboard/StudentAdmitted/StudentAdmitted";
+import StudentAdmitted from "@/components/Dashboard/StudentInfo/StudentInfo";
 
 const StudentDashboard = () => {
   return (

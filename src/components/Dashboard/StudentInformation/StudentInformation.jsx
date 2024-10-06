@@ -1,4 +1,7 @@
-const StudentAdmitted = () => {
+import { studentInformation } from "../../../lib/StudentInfo/StudentInfoDB";
+
+const StudentInformation = () => {
+  console.log(studentInformation)
   return (
     <>
       <div>
@@ -8,11 +11,11 @@ const StudentAdmitted = () => {
               <tr>
                 <th>Student ID</th>
                 <th>Gender</th>
-                <th>Field for Study</th>
-                <th>Income Level</th>
-                <th>Special Needs</th>
+                <th>Course Name</th>
+                <th>Course Credits</th>
+                <th>Grades</th>
                 <th>Country</th>
-                <th>Admission Status</th>
+                <th>More Details</th>
               </tr>
             </thead>
             <tbody>
@@ -20,10 +23,12 @@ const StudentAdmitted = () => {
                 <th>1</th>
                 <td>Male</td>
                 <td>Computer Science and Engineering (CSE)</td>
-                <td>Low</td>
-                <td>No</td>
+                <td>153</td>
+                <td>4.0</td>
                 <td>Bangladesh</td>
-                <td className="text-green-600">Admitted</td>
+                <td className="text-green-600">
+                  <button className="btn btn-xs bg-[#009688] text-white  hover:bg-[#03524a]">Details</button>
+                </td>
               </tr>
             </tbody>
           </table>
@@ -32,4 +37,4 @@ const StudentAdmitted = () => {
     </>
   );
 };
-export default StudentAdmitted;
+export default StudentInformation;
