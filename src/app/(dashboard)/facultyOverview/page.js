@@ -1,9 +1,9 @@
-import FacultyManagement from "../../../components/Dashboard/FacultyOverview/FacultyOverview";
+import FacultyOverview from "../../../components/Dashboard/FacultyOverview/FacultyOverview";
 
 const facultyPage = () => {
     return(
         <>
-             <FacultyManagement/>
+             <FacultyOverview/>
         </>
     )}
 export default facultyPage;

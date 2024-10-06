@@ -2,9 +2,9 @@ const Login = () => {
   return (
     <>
       <div className="hero bg-[#009688] min-h-screen">
-        <div className="hero-content p-0 flex-col lg:flex-row-reverse">
+        <div className="hero-content max-w-sm p-0 flex-col lg:flex-row-reverse">
           <div className="card rounded-md bg-base-100 w-full shrink-0 shadow-2xl">
-            <form className="card-body px-4 pt-5">
+            <form className="card-body px-5 pt-5">
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Email</span>

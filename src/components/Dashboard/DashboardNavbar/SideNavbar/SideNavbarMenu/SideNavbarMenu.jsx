@@ -11,26 +11,23 @@ const SideNavbarMenu = () => {
         <h4 className="text-bold text-sm lg:text-base min-w-max max-w-full mt-8 text-center lg:text-start opacity-75">
           Menu
         </h4>
-        <ul className="mt-4 space-y-4">
-          <li className="flex gap-2 justify-center lg:justify-start items-center">
-            {" "}
-            <Link className="flex items-center gap-2" href="/studentPortal">
+        <ul className="mt-5 space-y-5 menu p-0 text-start">
+          <li>
+            <Link className="flex p-0 items-center gap-3" href="/studentPortal">
               <PiStudent size={20} />
               <span className="hidden lg:block">Student Portal</span>
             </Link>
           </li>
 
-          <li className="flex gap-2 justify-center lg:justify-start items-center">
-            {" "}
-            <Link className="flex items-center gap-2" href="/facultyOverview">
+          <li>
+            <Link className="flex p-0 items-center gap-3" href="/facultyOverview">
               <HiUserGroup size={20} />
               <span className="hidden lg:block">Faculty Overview</span>
             </Link>
           </li>
 
-          <li className="flex gap-2 justify-center lg:justify-start items-center">
-            {" "}
-            <Link className="flex items-center gap-2" href="enrollCourses">
+          <li>
+            <Link className="flex p-0 items-center gap-3" href="enrollCourses">
               <RiRegisteredFill size={20} />
               <span className="hidden lg:block">Enroll in Courses</span>
             </Link>
