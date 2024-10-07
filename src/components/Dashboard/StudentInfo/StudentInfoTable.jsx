@@ -11,7 +11,7 @@ const StudentInfoTable = ({ infos }) => {
     country,
     moreDetails,
   } = infos;
-  console.log(infos);
+
   return (
     <>
       <tr>
